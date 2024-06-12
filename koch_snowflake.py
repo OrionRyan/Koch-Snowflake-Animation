@@ -3,12 +3,6 @@ from manim import *
 class Beta(Scene):
     def construct(self):
 
-        #Add music, "Heaven and Hell" by Jeremy Blake
-        self.add_sound(r"C:\Users\rjhat\Downloads\Heaven and Hell.mp3")
-
-        aspect_ratio = Rectangle(width=4.5, height=8, color=WHITE)
-        self.add(aspect_ratio)
-
         #Function returning number of vertices based on the iteration number
         def GetNumberOfVertices(iteration):
             vertices = 3*4**(iteration)
